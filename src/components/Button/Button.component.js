@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styled from 'react-emotion';
+import styled from '@emotion/styled';
 
 const Button = styled('button')`
   padding: 1em 2em;
