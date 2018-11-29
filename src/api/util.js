@@ -10,7 +10,7 @@ function buildQueryParams(params) {
 function buildRequest(endpoint) {
   return function request(urlMapping = {}) {
     const config = Object.assign(urlMapping, {
-      api_key: process.env.REACT_APP_API_KEY,
+      api_key: 'P9QjPtgQd2o8ITH2917l27uTcgqYxZMk',
     });
     const params = buildQueryParams(config);
     const query = endpoint.concat(params);
